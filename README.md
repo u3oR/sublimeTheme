@@ -24,6 +24,8 @@ In Qt Creator go to Tools -> Options -> Text Editor -> Font & Colors and select 
 
 
 目前只修改了最常见的部分, .xml中加了注释方便自己自定义
+
+注释名称中后面有"@@"表示和SublimeText主题颜色一致
 ```
   ...
   <style name="Number" foreground="#f9ae57"/><!--数字@@-->
