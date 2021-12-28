@@ -3,11 +3,12 @@ QT语法高亮主题
 
 颜色仿的Sublime Text中的主题
 
-![img](WoodeCode_Dark.png)
-
 The color theme is based on SublimeText's mariana theme.
 
-食用方法: 下载WoodeCode_Dark.xml文件，将文件放到下面的目录中
+![img](WoodeCode_Dark.png)
+
+
+食用方法: 下载**WoodeCode_Dark.xml**文件，将文件放到下面的目录中
 
 Installation:Copy the .xml file into the styles directory:
 ```
