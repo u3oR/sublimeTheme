@@ -1,7 +1,9 @@
 # QT Dark Theme
 QT语法高亮主题
 
-颜色仿的Sublime Text中的主题，只修改了最常见的部分, .xml中加了注释方便自己自定义
+颜色仿的Sublime Text中的主题
+
+![img](WoodeCode_Dark.png)
 
 The color theme is based on SublimeText's mariana theme.
 
@@ -19,6 +21,8 @@ Qt Creator -> 工具 -> 选项 -> 文本编辑器 -> 字体和颜色 -> 选择"W
 
 In Qt Creator go to Tools -> Options -> Text Editor -> Font & Colors and select Monokai under "Color Scheme".
 
+
+目前只修改了最常见的部分, .xml中加了注释方便自己自定义
 ```
   ...
   <style name="Number" foreground="#f9ae57"/><!--数字@@-->
@@ -29,4 +33,3 @@ In Qt Creator go to Tools -> Options -> Text Editor -> Font & Colors and select 
   <style name="Field" foreground="#6699cc"/><!--字段，类的数据成员-->
   ...
 ```
-![img](WoodeCode_Dark.png)
