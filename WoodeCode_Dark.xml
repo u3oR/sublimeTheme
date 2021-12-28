@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme version="1.0" name="WoodeCode_Dark">
+  <!--foreground:前景,background:背景,italic:斜体,-->
+  <style name="Text" foreground="#d8dee9" background="#303841"/> <!--文本-->
+  <style name="Link" foreground="#d6c540"/><!--链接-->
+  <style name="Selection" foreground="#bec0c2" background="#4c5863"/><!--选中的文本-->
+  <style name="LineNumber" foreground="#bec0c2" background="#404244"/><!--编辑器左侧的行号-->
+  <style name="SearchResult" background="#8a7f2c"/><!--搜索结果-->
+  <style name="SearchScope" background="#8a602c"/><!--搜索范围-->
+  <style name="Parentheses" foreground="#ffffff"/><!--括号-->
+  <style name="ParenthesesMismatch" background="#ff6aad"/><!---->
+  <style name="AutoComplete" foreground="#2c408a" background="#9aa7d6"/><!---->
+  <style name="CurrentLine" background="#373737"/><!--行数-->
+  <style name="CurrentLineNumber" foreground="#d6c540" bold="true"/><!--当前行号-->
+  <style name="Occurrences" background="#8a402c"/><!--光标处的符号出现的位置-->
+  <style name="Occurrences.Unused" foreground="#8a7f2c"/><!--未使用的变量的出现位置-->
+  <style name="Occurrences.Rename" foreground="#ffaaaa" background="#553636"/><!--将要被更名的符号出现的位置-->
+  <style name="Number" foreground="#f9ae57"/><!--数字@@-->
+  <style name="String" foreground="#99c794"/><!--字符串@@-->
+  <style name="Type" foreground="#d8dee9"/><!--类型-->
+  <style name="Local" foreground="#d8dee9"/><!--局部变量-->
+  <style name="Global" foreground="#9aa7d6"/><!--全局变量-->
+  <style name="Field" foreground="#6699cc"/><!--字段，类的数据成员-->
+  <style name="Static" foreground="#66a334" italic="true"/><!---->
+  <style name="VirtualMethod" italic="true"/><!--虚拟方法-->
+  <style name="Function" foreground="#6497ca"/><!--函数-->
+  <style name="Keyword" foreground="#c695c6" italic="false"/><!--关键字 if/else...@@-->
+  <style name="PrimitiveType" foreground="#d69aa7"/><!---->
+  <style name="Operator" foreground="#f997b57"/><!--运算符@@-->
+  <style name="Overloaded Operator"/><!--重载运算符-->
+  <style name="Punctuation" foreground="#a6acb9"/><!--运算符之外的标点符号@@-->
+  <style name="Preprocessor" foreground="#c695c6"/><!--预处理include@@-->
+  <style name="Label" foreground="#d6c540"/><!--goto语句的标签-->
+  <style name="Comment" foreground="#a6acb9" italic="true"/><!--注释@@-->
+  <!--Doxygen-->
+  <style name="Doxygen.Comment" foreground="#65676a" bold="true" italic="true"/><!--Doxygen注释-->
+  <style name="Doxygen.Tag" foreground="#66a334"/><!--Doxygen标签-->
+  <style name="VisualWhitespace" foreground="#bec0c2"/><!---->
+  <!--Qml-->
+  <style name="QmlLocalId" foreground="#9acfd6" italic="true"/><!--Qml局部ID-->
+  <style name="QmlExternalId" foreground="#9aa7d6" italic="true"/><!--Qml外部ID-->
+  <style name="QmlTypeId" foreground="#66a334"/><!--Qml-->
+  <style name="QmlRootObjectProperty" italic="true"/><!--Qml-->
+  <style name="QmlScopeObjectProperty" italic="true"/><!--Qml-->
+  <style name="QmlExternalObjectProperty" foreground="#9aa7d6" italic="true"/><!--Qml-->
+  <!--Js-->
+  <style name="JsScopeVar" foreground="#9acfd6" italic="true"/><!--Js范围变量,js文件内定义的变量-->
+  <style name="JsImportVar" foreground="#4564d6" italic="true"/><!--Js Import，导入-->
+  <style name="JsGlobalVar" foreground="#4564d6" italic="true"/><!--Js全局变量-->
+  <style name="QmlStateName" foreground="#45c6d6" italic="true"/><!--Qml状态名-->
+  
+  <style name="Binding" foreground="#ff6aad"/><!---->
+  <style name="DisabledCode" foreground="#969696" background="#474747"/><!--预处理指令禁用的代码-->
+  <!--Diff-->
+  <style name="AddedLine" foreground="#45c6d6"/><!--添加的行-->
+  <style name="RemovedLine" foreground="#d65645"/><!--删除的行-->
+  <style name="DiffFile" foreground="#66a334"/><!--Diff文件-->
+  <style name="DiffLocation" foreground="#d6c540"/><!--Diff路径-->
+  <style name="DiffFileLine" foreground="#2e2f30" background="#d6c540"/><!---->
+  <style name="DiffContextLine" foreground="#2e2f30" background="#65676a"/><!---->
+  <style name="DiffSourceLine" background="#8a2c40"/><!---->
+  <style name="DiffSourceChar" foreground="#2e2f30" background="#c34141"/><!---->
+  <style name="DiffDestLine" background="#588a2c"/><!---->
+  <style name="DiffDestChar" foreground="#2e2f30" background="#7cc33e"/><!---->
+  
+  <style name="LogChangeLine" foreground="#d65645"/><!---->
+  <!--underlineColor:下划线颜色-->
+
+  <style name="Warning" underlineColor="#d6c545" underlineStyle="SingleUnderline"/><!---->
+  <style name="WarningContext" underlineColor="#d6c545" underlineStyle="DotLine"/><!---->
+  <style name="Error" underlineColor="#d65645" underlineStyle="SingleUnderline"/><!--错误-->
+  <style name="ErrorContext" underlineColor="#d65645" underlineStyle="DotLine"/><!---->
+  
+  <style name="Declaration" bold="true"/><!--声明，bold:加粗-->
+  <style name="FunctionDefinition"/><!--函数定义-->
+  <style name="OutputArgument" italic="true"/><!---->
+
+</style-scheme>
