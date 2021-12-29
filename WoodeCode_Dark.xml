@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style-scheme version="1.0" name="WoodeCode_Dark">
   <!--foreground:前景,background:背景,italic:斜体,-->
+  <!--6497ca:淡蓝色-->
+  <!--c695c6:淡紫色-->
+  <!--99c794:绿色-->
+
   <style name="Text" foreground="#d8dee9" background="#2e2f30"/> <!--文本,#303841是藏青色，#2e2f30是深灰色-->
   <style name="Link" foreground="#d6c540"/><!--链接-->
-  <style name="Selection" foreground="#bec0c2" background="#4c5863"/><!--选中的文本-->
+  <style name="Selection" background="#535353"/><!--选中的文本-->
   <style name="LineNumber" foreground="#bec0c2" background="#404244"/><!--编辑器左侧的行号-->
-  <style name="SearchResult" background="#8a7f2c"/><!--搜索结果-->
+  <style name="SearchResult" background="#ffc761"/><!--搜索结果-->
   <style name="SearchScope" background="#8a602c"/><!--搜索范围-->
-  <style name="Parentheses" foreground="#ffffff"/><!--括号-->
+  <style name="Parentheses" foreground="#df4055"/><!--匹配到括号时显示@@-->
   <style name="ParenthesesMismatch" background="#ff6aad"/><!---->
   <style name="AutoComplete" foreground="#2c408a" background="#9aa7d6"/><!---->
   <style name="CurrentLine" background="#373737"/><!--行数-->
@@ -15,20 +19,27 @@
   <style name="Occurrences" background="#8a402c"/><!--光标处的符号出现的位置-->
   <style name="Occurrences.Unused" foreground="#8a7f2c"/><!--未使用的变量的出现位置-->
   <style name="Occurrences.Rename" foreground="#ffaaaa" background="#553636"/><!--将要被更名的符号出现的位置-->
+
+  <style name="Keyword" foreground="#c695c6" italic="false"/><!--关键字 if/else...@@-->
+  <style name="Type" foreground="#6497ca"/><!--类型@@-->
+  <style name="Local" /><!--局部变量@@-->
+  <style name="Global" /><!--全局变量@@-->
+
   <style name="Number" foreground="#f9ae57"/><!--数字@@-->
   <style name="String" foreground="#99c794"/><!--字符串@@-->
-  <style name="Type" foreground="#d8dee9"/><!--类型-->
-  <style name="Local" foreground="#d8dee9"/><!--局部变量-->
-  <style name="Global" foreground="#9aa7d6"/><!--全局变量-->
-  <style name="Field" foreground="#6699cc"/><!--字段，类的数据成员-->
-  <style name="Static" foreground="#66a334" italic="true"/><!---->
+
+  <style name="Field" /><!--字段，类的数据成员@@-->
+  <style name="Static" italic="true"/><!--静态，枚举@@-->
   <style name="VirtualMethod" italic="true"/><!--虚拟方法-->
-  <style name="Function" foreground="#6497ca"/><!--函数-->
-  <style name="Keyword" foreground="#c695c6" italic="false"/><!--关键字 if/else...@@-->
-  <style name="PrimitiveType" foreground="#d69aa7"/><!---->
-  <style name="Operator" foreground="#f997b57"/><!--运算符@@-->
+
+  <style name="Function" foreground="#6497ca"/><!--函数,淡蓝色-->
+
+  <style name="PrimitiveType" foreground="#c695c6"/><!---->
+  <style name="Operator" foreground="#f97b57"/><!--运算符@@-->
   <style name="Overloaded Operator"/><!--重载运算符-->
-  <style name="Punctuation" foreground="#a6acb9"/><!--运算符之外的标点符号@@-->
+
+  <style name="Punctuation" /><!--运算符之外的标点符号@@-->
+
   <style name="Preprocessor" foreground="#c695c6"/><!--预处理include@@-->
   <style name="Label" foreground="#d6c540"/><!--goto语句的标签-->
   <style name="Comment" foreground="#a6acb9" italic="true"/><!--注释@@-->
