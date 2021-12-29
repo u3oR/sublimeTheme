@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style-scheme version="1.0" name="WoodeCode_Dark">
   <!--foreground:前景,background:背景,italic:斜体,-->
-  <style name="Text" foreground="#d8dee9" background="#303841"/> <!--文本-->
+  <style name="Text" foreground="#d8dee9" background="#2e2f30"/> <!--文本,#303841是藏青色，#2e2f30是深灰色-->
   <style name="Link" foreground="#d6c540"/><!--链接-->
   <style name="Selection" foreground="#bec0c2" background="#4c5863"/><!--选中的文本-->
   <style name="LineNumber" foreground="#bec0c2" background="#404244"/><!--编辑器左侧的行号-->
